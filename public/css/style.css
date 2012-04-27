@@ -1,0 +1,151 @@
+
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+html {
+  height: 100%; 
+}
+
+body { 
+  background: url(../images/bg.png) 0 0 repeat;
+  font-family: 'Helvetica Neue', Helvetica, Tahoma;
+  font-size: 18px;
+}
+
+p {
+  line-height: 18px;
+  font-size: 12px;
+  font-family: 'Lucida Grande';  
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 a {
+  letter-spacing: -1px;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-shadow: #cbcbcb 0 1px 1px;
+  color: #787878;
+}
+
+h2 {
+  font-size: 24px;
+  letter-spacing: -1px;
+  text-shadow: #fff 0 2px 1px;
+}
+
+h1 a span {
+  color: #505050;
+}
+
+input[type='submit'], input[type='button'] {
+  background: #eaeaea;
+  background: -moz-linear-gradient(top, #efefef, #d8d8d8) #d8d8d8;
+  background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#d8d8d8)) #d8d8d8;
+  background: linear-gradient(top, #efefef, #d8d8d8) #d8d8d8;
+  border: 1px solid #ababab;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.8) inset;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.8) inset;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.8) inset;
+  color: #707070;
+  font-family: 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  margin: 0;
+  outline: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+input[type='submit'].green {
+  background: #1fbf00;
+  background: -moz-linear-gradient(top, #22d100, #19a500) #22d100;
+  background: -webkit-gradient(linear, left top, left bottom, from(#22d100), to(#19a500)) #22d100;
+  background: linear-gradient(top, #22d100, #19a500) #22d100;
+  border: 1px solid #1b8800;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.25) inset;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.25) inset;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.25) inset;
+  color: #fff;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.33);
+}
+
+input[type='submit'].green:hover {
+  background: #22cc00;
+  background: -moz-linear-gradient(top, #24d800, #1db200) #24d800;
+  background: -webkit-gradient(linear, left top, left bottom, from(#24d800), to(#1db200)) #24d800;
+  background: linear-gradient(top, #24d800, #1db200) #24d800;
+}
+
+input[type='submit'].green:focus {
+  -moz-box-shadow: 0 0 3px #24d800, 0 1px 1px rgba(255, 255, 255, 0.25) inset;
+  -webkit-box-shadow: 0 0 3px #24d800, 0 1px 1px rgba(255, 255, 255, 0.25) inset;
+  box-shadow: 0 0 3px #24d800, 0 1px 1px rgba(255, 255, 255, 0.25) inset;
+}
+
+#container {
+  width: 800px;
+  position: relative;
+  margin: 0 auto 0 auto;
+}
+
+#container ul {
+  list-style: none;
+  margin-top: 30px;
+}
+
+#container li {
+  position: relative;
+  float: left;
+  width: auto;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+#container li a {
+  color: #787878;
+  text-shadow: #fff 0 1px 1px;
+}
+
+#upload {
+  width: 350px;
+  height: 130px;
+  position: relative;
+  margin: 0 auto 0 auto;
+  margin-top: 100px;
+  background-color: #f9f9f9;
+  background-image: -ms-linear-gradient(top, #fafafa, #f9f9f9);
+  background-image: -moz-linear-gradient(top, #fafafa, #f9f9f9);
+  background-image: -o-linear-gradient(top, #fafafa, #f9f9f9);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#f9f9f9));
+  background-image: -webkit-linear-gradient(top, #fafafa, #f9f9f9);
+  background-image: linear-gradient(top, #fafafa, #f9f9f9);
+  -moz-box-shadow: 0 0 0 3px #eeeeee;
+  -webkit-box-shadow: 0 0 0 3px #eeeeee;
+  box-shadow: 0 0 0 3px #eeeeee;
+  border: 1px solid #d9d9d9;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding: 18px 0;
+  text-align: center;
+}
+
+#upload h2, #upload p {
+  margin: 10px 0 10px 0;
+}
+
+/* EOF */

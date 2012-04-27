@@ -1,0 +1,17 @@
+{
+  "author":"Edward Hotchkiss <edwardhotchkiss@me.com>",
+  "name":"demo",
+  "description":"Node.JS MongoDB S3 Demo",
+  "private":true,
+  "version":"0.0.1",
+  "engines":{
+    "node": ">= 0.6.15"
+  },
+  "dependencies":{
+    "ejs":"0.7.1",
+    "express":"2.5.9",
+    "mongoose":"2.6.0",
+    "formidable":"1.0.9",
+    "knox":"0.0.9"
+  }
+}
