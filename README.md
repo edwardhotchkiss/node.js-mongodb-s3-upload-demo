@@ -1,5 +1,4 @@
 
+# Node.JS MongoDB S3 Upload Demo
 
-# Node.JS MongoDB S3 Demo
-
-> Node.JS MongoDB S3 Demo 
+> Example code to upload to AWS S3 using Node.js, and store file information and references into a MongoDB store.
